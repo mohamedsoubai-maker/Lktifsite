@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+}
+header {
+    text-align: center;
+    color: white;
+    background-color: white;
+    padding: 200px;
+    border-radius: 10px 10px 0 0;
+    background-image: url('image2.jpeg');
+}
+#Premier {
+    border: 4px solid #059d1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+#Premier h2 {
+    color: #059d1e;
+}
+#Deuxieme {
+    border: solid #059d1e;
+    border-radius: 10px;
+    border-width: 4px;
+    padding: 20px;
+    margin: 20px; 
+    background-color: white;
+}
+#Deuxieme h2 {
+    color: #059d1e;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
