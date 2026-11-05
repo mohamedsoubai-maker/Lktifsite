@@ -1,0 +1,60 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ddd;
+}
+header {
+    padding: 30px;
+    background-color: rgb(64, 68, 119);
+    text-align: center;
+    color: white;
+}
+footer {
+    padding: 10px;
+    background-color: rgb(64, 68, 119);
+    text-align: center;
+    color: white;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin: 10px;
+    gap: 40px;
+}
+.card {
+    background-color: white;
+    border: 3px solid #ddd;
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 300px;
+    height: 300px; 
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer; 
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+.card h2 {
+    font-size: 40px;
+}
+
+.card p {
+    font-size: 26px;
+}
+.card span {
+    font-size: 18px;
+}
+.card:hover {
+    transform: scale(1.1);                   
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+.blue-exorcist {
+    background-image: url('bl.png');
+}
+.my-hero-academia {
+    background-image: url('mha.jpg');
+
+}
+.solo-Leveling {
+    background-image: url('sleveling.jpg');
+
+}
